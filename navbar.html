@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <nav>
+    <nav >
         <div>
             <img src="Images/logo-dark.svg" alt="dorik">
         </div>
-        <ul>
+        <ul class="">
             <li>
                 Product
                 <ul>
@@ -32,7 +34,7 @@
                     <li><a href="">Personal</a></li>
                     <li><a href="">Business</a></li>
                     <li><a href="">One Page</a></li>
-                    <li><a href=""><img src="Images/svg.png" alt="share">All Templates</a></li>
+                    <li><a href=""><img src="Images/svg.png" alt="share"><i class="fa-solid fa-arrow-right"></i> All Templates</a></li>
                 </ul>
             </li>
             <li><a href="">Pricing</a></li>
@@ -47,8 +49,10 @@
                 </ul>
             </li>
         </ul>
-        <button>login</button>
-        <button>Sign Up</button>
+        <div>
+            <button class="btn1">login</button>
+            <button class="btn2">Sign Up</button>
+        </div>
     </nav>
 </body>
 </html>
