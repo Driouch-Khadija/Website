@@ -3,6 +3,8 @@ body{
     box-sizing:border-box;
     padding:0;
     background-color:#FFF9F3;
+    font-family: Arial, sans-serif;
+    font-weight:bold;
 
 }
 nav {
@@ -10,7 +12,7 @@ nav {
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    
+    gap:10px;
 }
 
 img{
@@ -22,14 +24,18 @@ img{
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    gap:2rem;
+    gap:1.5rem;
+    
+
+}
+
+.link:hover{
+    color: #3A30BA;  
 }
 
 li{
     list-style-type:none;
-    font-family: Arial, sans-serif;
-    font-size:12px;
-    font-weight:bold;
+    font-size:15px;
     line-height:2.6;
 }
 
@@ -39,16 +45,78 @@ li a{
     font-family:Arial,sans-serif;
 }
 
+.li:hover{
+    color:#3A30BA;
+    cursor: pointer; 
+}
+ 
+
+
 nav ul ul {
     display:none;
 }
 
 nav ul li:hover > ul{
     display:block;
-    width:200px;
-    height:500px;
+    width:160px;
+    height:auto;
+    background-color:white;
+    border-radius:6px;
+    /* add padding */
+    padding:4px 15px;
+
+    
 }
 
+ nav  ul  li ul li:hover{
+    background-color:#FFF9F3;
+    width:100%;
+    height:auto;
+    padding:5px 8px;
+    /* hover bachground */
+
+}
+
+
+nav ul li ul{ 
+    display:none;
+    position:absolute;
+    top:10%;
+    
+}
+
+.btnss{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 20px;
+
+}
+
+.btn1{
+     border:none;
+    padding:10px 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color: #FFF9F3;
+    margin:0 8px 0 0;
+    color:#3A30BA;
+    font-size:15px;
+}
+
+.btn2{
+    border:none;
+    padding:15px 12px;
+    font-size:15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 8px 0 0;
+    background-color: #3A30BA;
+    color:white;
+    border-radius:6px;
+    width:98px;
+}
 
 
 
