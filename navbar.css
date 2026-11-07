@@ -5,6 +5,7 @@ body{
     background-color:#FFF9F3;
     font-family: Arial, sans-serif;
     font-weight:bold;
+    
 
 }
 nav {
@@ -17,7 +18,8 @@ nav {
 }
 
 img{
-    width:95px;
+    width:85px;
+    margin-left:15px;
 }
  
 .table{
@@ -59,21 +61,32 @@ nav ul ul {
 
 nav ul li:hover > ul{
     display:block;
-    width:160px;
+    width:auto;
     height:auto;
     background-color:white;
     border-radius:6px;
     /* add padding */
-    padding:4px 15px;
-
+    padding:4px 8px;
     
 }
 
- nav  ul  li ul li:hover{
+nav ul li ul li{
+    padding-left: 10px;
+    padding-right:10px;
+    margin:0;
+}
+
+ nav  ul  li ul li:hover {
     background-color:#FFF9F3;
-    width:100%;
+    width:auto;
     height:auto;
-    padding:5px 8px;
+    /* padding:5px 8px; */
+    display:block;
+    margin:0;
+    padding-left:10px;
+    padding-right: 10px;
+
+
     /* hover bachground */
 
 }
