@@ -1,15 +1,19 @@
 body{
+    padding:0;
     margin:0;
     box-sizing:border-box;
-    padding:0;
     background-color:#FFF9F3;
     font-family: Arial, sans-serif;
     font-weight:bold;
-    
+
 
 }
 nav {
     margin-top: 0;
+    height:90px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 1px solid #E6E1E1;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -17,7 +21,7 @@ nav {
     gap:10px;
 }
 
-img{
+.logo{
     width:85px;
     margin-left:15px;
 }
@@ -94,8 +98,8 @@ nav ul li ul li{
 
 nav ul li ul{ 
     display:none;
-    position:absolute;
-    top:10%;
+    position:fixed;
+
     
 }
 
